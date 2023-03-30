@@ -1,0 +1,77 @@
+.box{
+    background-color: black;
+    justify-content: center;
+    display: grid;
+}
+
+.box h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container span{
+    color: red;
+}
+
+table td{
+    border: 1px solid #25D366;
+    width: 200px;
+    height: 200px;
+}
+
+tr td{
+    background-color:#00B2FF ;
+    border-radius: 10px;
+}
+
+.text{
+    text-align: center;
+    padding: 30px;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-size: 40px;
+    animation: winneranimation 5s infinite ;
+}
+.text:hover{
+    border: 1px solid purple;
+    background-color: orange;
+}
+
+.btn{
+    color: #fff;
+    float: right;
+    position: relative;
+    border: 1px solid blue;
+    border-radius: 5px;
+    line-height: 40px;
+    width: 100px;
+    animation: winneranimation 5s infinite ;
+}
+
+.btn:hover{
+    background-color: red;
+    border: green;
+}
+
+.todo-list{
+    text-align: center;
+    font-size:100px;
+}
+
+@keyframes winneranimation{
+    0% {
+        background-color: red;
+    }
+    50%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: orange;
+    }
+}
